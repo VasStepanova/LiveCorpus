@@ -1,0 +1,312 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 59.0
+tiers? <exists>
+size = 6
+item []:
+    item[1]:
+        class = "IntervalTier"
+        name = "default"
+        xmin = 0.0
+        xmax = 59.0
+        intervals: size = 1
+        intervals [1]
+            xmin = 0.0
+            xmax = 59.0
+            text = ""
+    item[2]:
+        class = "IntervalTier"
+        name = "lag@facial"
+        xmin = 0.0
+        xmax = 59.0
+        intervals: size = 11
+        intervals [1]
+            xmin = 0.0
+            xmax = 5.473
+            text = "взгляд смотрит вниз"
+        intervals [2]
+            xmin = 5.473
+            xmax = 12.894
+            text = "движения глазами в стороны"
+        intervals [3]
+            xmin = 12.894
+            xmax = 12.912
+            text = ""
+        intervals [4]
+            xmin = 12.912
+            xmax = 16.315
+            text = "улыбка(смех), зажмуренные глаза"
+        intervals [5]
+            xmin = 16.315
+            xmax = 28.385
+            text = "взгляд в разные стороны"
+        intervals [6]
+            xmin = 28.385
+            xmax = 31.701
+            text = "грустный взгляд"
+        intervals [7]
+            xmin = 31.701
+            xmax = 43.332
+            text = "движения бровями и глазами"
+        intervals [8]
+            xmin = 43.332
+            xmax = 47.49
+            text = "улыбка(смех)( возможно смущение)"
+        intervals [9]
+            xmin = 47.49
+            xmax = 52.884
+            text = "разочарованный взгляд"
+        intervals [10]
+            xmin = 52.884
+            xmax = 58.55
+            text = "уверенный взгляд"
+        intervals [11]
+            xmin = 58.55
+            xmax = 59.0
+            text = "улыбка"
+    item[3]:
+        class = "IntervalTier"
+        name = "lag@facial-meaning"
+        xmin = 0.0
+        xmax = 59.0
+        intervals: size = 11
+        intervals [1]
+            xmin = 0.0
+            xmax = 5.491
+            text = "концентрация на мысли"
+        intervals [2]
+            xmin = 5.491
+            xmax = 12.912
+            text = "желание правильно выразить мысль"
+        intervals [3]
+            xmin = 12.912
+            xmax = 16.315
+            text = "смущение "
+        intervals [4]
+            xmin = 16.315
+            xmax = 28.403
+            text = ""
+        intervals [5]
+            xmin = 28.403
+            xmax = 31.692
+            text = "чувство разочарования"
+        intervals [6]
+            xmin = 31.692
+            xmax = 43.359
+            text = ""
+        intervals [7]
+            xmin = 43.359
+            xmax = 47.49
+            text = "представление чего-то, чего не может быть"
+        intervals [8]
+            xmin = 47.49
+            xmax = 47.525
+            text = ""
+        intervals [9]
+            xmin = 47.525
+            xmax = 52.884
+            text = "негативное воспоминание"
+        intervals [10]
+            xmin = 52.884
+            xmax = 58.55
+            text = "человек пришел к однозначному выводу"
+        intervals [11]
+            xmin = 58.55
+            xmax = 59.0
+            text = "удовлетворение"
+    item[4]:
+        class = "IntervalTier"
+        name = "lag@gesture-meaning"
+        xmin = 0.0
+        xmax = 59.0
+        intervals: size = 11
+        intervals [1]
+            xmin = 0.0
+            xmax = 5.508
+            text = ""
+        intervals [2]
+            xmin = 5.508
+            xmax = 15.298
+            text = "желание выразить свою мысль точно и понятно (отрицат. поворот головы относится к отрицательному предложению 'не думая'"
+        intervals [3]
+            xmin = 15.298
+            xmax = 28.385
+            text = ""
+        intervals [4]
+            xmin = 28.385
+            xmax = 31.701
+            text = "негативное воспоминание или представление"
+        intervals [5]
+            xmin = 31.701
+            xmax = 41.245
+            text = ""
+        intervals [6]
+            xmin = 41.245
+            xmax = 42.894
+            text = "предположение"
+        intervals [7]
+            xmin = 42.894
+            xmax = 51.183
+            text = ""
+        intervals [8]
+            xmin = 51.183
+            xmax = 52.473
+            text = "выражение отрицательного преложения'не работать'"
+        intervals [9]
+            xmin = 52.473
+            xmax = 52.893
+            text = ""
+        intervals [10]
+            xmin = 52.893
+            xmax = 58.629
+            text = "воспоминания"
+        intervals [11]
+            xmin = 58.629
+            xmax = 59.0
+            text = ""
+    item[5]:
+        class = "IntervalTier"
+        name = "lag@gesture"
+        xmin = 0.0
+        xmax = 59.0
+        intervals: size = 11
+        intervals [1]
+            xmin = 0.0
+            xmax = 5.508
+            text = ""
+        intervals [2]
+            xmin = 5.508
+            xmax = 15.315
+            text = "движение левой рукой(сначала в сторону, потом к голове), повороты головы"
+        intervals [3]
+            xmin = 15.315
+            xmax = 28.385
+            text = ""
+        intervals [4]
+            xmin = 28.385
+            xmax = 31.701
+            text = "отрицательный поворот головой"
+        intervals [5]
+            xmin = 31.701
+            xmax = 41.233
+            text = ""
+        intervals [6]
+            xmin = 41.233
+            xmax = 42.864
+            text = "движение головой"
+        intervals [7]
+            xmin = 42.864
+            xmax = 51.175
+            text = ""
+        intervals [8]
+            xmin = 51.175
+            xmax = 52.49
+            text = "повороты головой"
+        intervals [9]
+            xmin = 52.49
+            xmax = 52.882
+            text = ""
+        intervals [10]
+            xmin = 52.882
+            xmax = 58.636
+            text = "незаметные кивки головой"
+        intervals [11]
+            xmin = 58.636
+            xmax = 59.0
+            text = ""
+    item[6]:
+        class = "IntervalTier"
+        name = "lag@"
+        xmin = 0.0
+        xmax = 59.0
+        intervals: size = 22
+        intervals [1]
+            xmin = 0.0
+            xmax = 1.368
+            text = "ну потому' что, мне каже'тс, что"
+        intervals [2]
+            xmin = 1.368
+            xmax = 2.385
+            text = "ввв"
+        intervals [3]
+            xmin = 2.385
+            xmax = 4.35
+            text = "все зави'сит"
+        intervals [4]
+            xmin = 4.35
+            xmax = 5.543
+            text = "от"
+        intervals [5]
+            xmin = 5.543
+            xmax = 15.315
+            text = "ааааа ну е'сли вот про'сто говори'ть все, без цензу'ры, не ду'мая, то про'сто не все не всегда' учителя' быва'ют тала'нтливы "
+        intervals [6]
+            xmin = 15.315
+            xmax = 27.017
+            text = "не всегда' это их призва'ние / и поэ'тому не'которые учителя', кото'рые про'сто рабо'тают , а не живу'т в шко'ле / не живу'т э'тим, что' называется, свое'й профе'ссией"
+        intervals [7]
+            xmin = 27.017
+            xmax = 27.912
+            text = "ааа"
+        intervals [8]
+            xmin = 27.912
+            xmax = 29.403
+            text = "они отравля'ют"
+        intervals [9]
+            xmin = 29.403
+            xmax = 33.719
+            text = "жизнь и по'ртят впечатле'ния о школе у уча'щихся аа"
+        intervals [10]
+            xmin = 33.719
+            xmax = 37.824
+            text = "шко'ла, как я пото'м поняла' / шко'ла могла' бы быть"
+        intervals [11]
+            xmin = 37.824
+            xmax = 42.404
+            text = "замеча'тельна, прекра'сна и инетере'сна, но в при'нципе и в на'шей шко'ле, е'сли там убра'ть"
+        intervals [12]
+            xmin = 42.404
+            xmax = 42.877
+            text = "ммм"
+        intervals [13]
+            xmin = 42.877
+            xmax = 43.947
+            text = " вот таки'х"
+        intervals [14]
+            xmin = 43.947
+            xmax = 44.492
+            text = "а"
+        intervals [15]
+            xmin = 44.492
+            xmax = 46.14
+            text = "не'сколько"
+        intervals [16]
+            xmin = 46.14
+            xmax = 47.526
+            text = "аааа,  ли'чностей"
+        intervals [17]
+            xmin = 47.526
+            xmax = 50.087
+            text = "как мне ка'жется, кото'рым там"
+        intervals [18]
+            xmin = 50.087
+            xmax = 52.498
+            text = "лу'чше было бы не рабо'тать, то вот"
+        intervals [19]
+            xmin = 52.498
+            xmax = 52.919
+            text = "аа"
+        intervals [20]
+            xmin = 52.919
+            xmax = 57.508
+            text = "вот сейчас , по проше'ствии мно'гих лет, я вспомина'ю, что действи'тельно"
+        intervals [21]
+            xmin = 57.508
+            xmax = 58.631
+            text = "бы'ло непло'хо"
+        intervals [22]
+            xmin = 58.631
+            xmax = 59.0
+            text = ""
